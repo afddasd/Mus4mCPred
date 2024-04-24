@@ -14,7 +14,7 @@ pandas
 ## Guiding principles:
 1.The folder "data" contains the datasets used in this study, including the mouse dataset and datasets from six other species.  
 2.The folder "feature_extract" contains all the feature encoding methods as well as information on the Word2vec pre-trained language model.  
-3.Data_process.py is the implementation for data reading; model.py is the implementation for the neural network model structure; train.py is the implementation for training the data with the model; test.py is the implementation for independent testing; utils.py contains information related to evaluation methods; "model_save.pth" is the final model information.  
+3.Data_process.py is the implementation for data reading, model.py is the implementation for the neural network model structure, train.py is the implementation for training the data with the model, test.py is the implementation for independent testing, utils.py contains information related to evaluation methods, "model_save.pth" is the final model information.  
 
 ## Note
 This code is for the article 'Mus4mCPred: Accurate identification of DNA N4-methylcytosine sites in mouse genome using multi-view feature learning and deep hybrid network'.
