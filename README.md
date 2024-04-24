@@ -4,9 +4,13 @@ N4-methylcytosine (4mC) is a critical epigenetic modification that plays a pivot
 ![image](https://github.com/afddasd/Mus4mCPred/assets/82444679/2b1c81d0-43e8-434a-853a-1f9f5580af1a)
 ## Mus4mCPred uses the following dependencies:
 python 3.9
+
 pytorch
+
 scikit-learn
+
 numpy
+
 pandas
 
 ## Guiding principles:
