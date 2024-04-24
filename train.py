@@ -130,7 +130,7 @@ for fold, (train_indices, val_indices) in enumerate(kf.split(DC_tensor, DC_label
         print('------------第{}轮验证开始---------------'.format(epoch + 1))
         vail_score = vail(model3, val_loader, criterion, device)
         print(
-            f"Epoch {epoch + 1}, Learning Rate: {optimizer.param_groups[0]['lr']},batchsize:{batch_size},out_channels, kernel_size, stride, hidden_size:{out_channels, kernel_size, stride, hidden_size}")
+            f"Epoch {epoch + 1}, Learning Rate: {optimizer.param_groups[0]['lr']},batchsize:{batch_size}")
         print("vail_score:", vail_score)
         print('\n')
 
